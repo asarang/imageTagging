@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aetrion.flickr:flickrapi:1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aetrion.flickr/flickrapi/1.1/acc4fb0e7e8af8fae3e722233dcd9ae8f7ec61b7/flickrapi-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aetrion.flickr/flickrapi/1.1/aca14c2d098c8829feebfb69ef468376f4ece125/flickrapi-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
