@@ -1,6 +1,6 @@
-import com.aetrion.flickr.Flickr;
-import com.aetrion.flickr.REST;
-import com.aetrion.flickr.test.TestInterface;
+
+import com.flickr4java.flickr.Flickr;
+import com.flickr4java.flickr.REST;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.util.Collection;
@@ -13,12 +13,12 @@ public class FlickrConnector {
 
     String apiKey = "154f99e0a415763dfb197c366d527445";
     String sharedSecret = "6662d57b908145bb";
-    
+
     public Flickr getFlickr(){
         try{
             return new Flickr(apiKey, sharedSecret, new REST());
 
-        } catch (ParserConfigurationException pce){
+        } catch (Exception pce){
             System.out.println("pce.getMessage() = " + pce.getMessage());
             return null;
         }
